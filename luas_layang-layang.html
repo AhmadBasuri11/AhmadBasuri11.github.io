@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="assets/css/menu.css">
+<meta charset="UTF-8">
+</head>
+
+<body>
+  <nav class="menu">
+    <H1 class="menu">MAHER RUMUS</H1>
+    <ul>
+        <li><a href="#" class="menu-item">Home</a></li>
+        <li><a href="galeri.html" class="menu-item">Gallery</a></li>
+        <li><a href="profil.html" class="menu-item">Profile</a></li>
+        <li><a href="rumus.html" class="menu-item">Rumus</a></li>
+        </ul>
+</nav>
+<h1>PERHITUNGAN LUAS LAYANG-LAYANG</h1>
+<h3>Dibuat Oleh: Maher Community</h3>
+ <fieldset>
+        <p>* 1/2 × Diagonal 1 (d1) × Diagonal 2 (d2)<p>
+        <p>
+            <label>Diagonal 1:</label>
+            <input type="number" placeholder="Masukkan angka.." id="diagonal" />
+        </p>
+        <p>
+            <label>Diagonal 2:</label>
+            <input type="number" placeholder="Masukkan angka.." id="diagonall" />
+        </p>
+        <button onclick="hitung()">Hitung</button>
+        <p id="hasil"></p>
+</fieldset>
+
+<script>
+  function hitung(){ 
+  const diagonal = document.getElementById('diagonal').value
+  const diagonall = document.getElementById('diagonall').value
+  hasil = (1/2 * diagonal * diagonall)
+  const tampilkanHasil = document.getElementById('hasil').innerHTML = hasil
+}
+   </script>
+ </body>
+</html>
