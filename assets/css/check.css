@@ -1,0 +1,114 @@
+.checkForm {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkForm label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .checkForm input[type="text"],
+  .checkForm input[type="number"],
+  .input[type="date"],
+  .input[type="tel"],
+  .input[type="select"]
+  {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .checkForm input[type="text"]:focus,
+  .checkForm input[type="number"]:focus,
+  .input[type="date"]:focus,
+  .input[type="tel"]:focus,
+  .input[type="select"]:focus
+  {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+  }
+  
+  .checkForm button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .checkForm button:hover {
+    background-color: #444;
+  }
+
+  .resultTable {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .resultTable th,
+  .resultTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .resultTable th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .resultTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+  }
+
+  input[type="date"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="date"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+  }
+
+  input[type="tel"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="tel"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+  }
+
+  

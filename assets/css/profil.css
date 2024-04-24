@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="file"] {
+    flex-basis: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  button[type="submit"] {
+    flex-basis: 100%;
+    padding: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2rem;
+  }
+  
+  .profile p {
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .headerprofil{
+    flex-basis: 100%;
+      padding: 0.5rem;
+      background-color: #4CAF50;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+  }
+  .headerprofil2{
+    flex-basis: 100%;
+      padding: 0.5rem;
+      background-color: #72c5f8;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+  }
+
+  .bio-box {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .bio-box2 {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .bio-box h2 {
+    margin-top: 0;
+  }
+  
+  .bio-box p {
+    margin: 10px 0;
+  }
+  
+  .bio-box button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration-color: #fff;
+  }
+  .bio-box2 button {
+    background-color: #4c91af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration-color: #fff;
+  }
+  
+  .bio-box button:hover {
+    background-color: #3e8e41;
+   
+  }
+  
+ 
